@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){var e=document.getElementById("games_ul"),a=0;e.innerHTML="";for(var s=0;s<3;s+=1){var l=document.createElement("li");a+=1,l.innerHTML='<li class="games_li grey"><p>game '.concat(a,"</p></li>"),l.classList.add("tasks_li"),a%2!=0&&l.classList.add("grey_color"),e.appendChild(l)}}()})();

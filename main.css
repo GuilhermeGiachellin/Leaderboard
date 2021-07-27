@@ -14,13 +14,20 @@ h1 {
   width: -moz-fit-content;
   width: fit-content;
   font-size: 5vh;
-  padding: 2.5vh;
+  padding: 3.5vh;
+}
+
+h2 {
+  font-size: 2.2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 section {
   display: flex;
   flex-direction: row;
-  justify-content: center;  
+  justify-content: center;
   height: 85vh;
 }
 
@@ -35,8 +42,28 @@ section {
 .list_title_container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  width: 25vw;
+  width: 30vw;
+  margin-bottom: 15px;
+}
+
+.games_ul {
+  width: 35vw;
+  border: 2px solid black;
+  padding: 0;
+}
+
+.games_li {
+  height: 60px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.grey_color {
+  background-color: #bebfc1;
 }
 
 .form_container {
@@ -50,4 +77,36 @@ section {
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
+
+input {
+  height: 30px;
+  margin-top: 15px;
+  width: 70%;
+}
+
+form > div {
+  width: 72%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit_btn {
+  margin-top: 15px;
+  width: 10vw;
+  height: 40px;
+  font-size: 1.1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.refresh_btn {
+  width: 10vw;
+  height: 40px;
+  font-size: 1.1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
