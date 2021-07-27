@@ -10,6 +10,8 @@ header {
 }
 
 h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 5vh;
   padding: 3.5vh;
@@ -17,6 +19,8 @@ h1 {
 
 h2 {
   font-size: 2.2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -105,3 +109,4 @@ form > div {
   border: 2px solid black;
   border-radius: 5px;
 }
+

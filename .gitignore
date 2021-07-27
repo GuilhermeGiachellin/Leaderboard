@@ -22,7 +22,7 @@
 /storage/*
 !/storage/.keep
 
-/dist
+/hint-report
 /node_modules
 /yarn-error.log
 
