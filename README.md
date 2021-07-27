@@ -1,78 +1,68 @@
-# JS web development scratch project includes.
-- webpack
-- eslint
-- style-lint
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# To Do List
 
-> This is an app TEMPLATE...
+> "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
+## Image Preview
+![image]()
+
+##  Live Demo
+[Demo]()
+
+## What was built in this project:
+
+- Plain HTML and CSS page.
 
 ## Built With
 
-- HTML
-- CSS
 - Javascript
-- Webpack-cli
-## Live Demo
 
-<!-- [My Transactions App Live!](URL) -->
+- CSS
 
-## Getting Started
+- HTML
 
-To get a local copy up and running follow these simple example steps.
+- Webpack
 
-### Prerequisites
-  
-- NODE.js
+- VS code
 
-### Setup
+- Eslint
 
-- Use your github account and your terminal to clone this repository to your computer:
-
-`repo link ***************`
-
-- Go to the cloned directory:
-`cd repo folder ***********`
-
-- Run the following command to install dependencies:
-`npm install`
-
-- Run the command to run the build:
-`npm run build`
-
-- Run the following command to compile the files for production:
-`npx webpack serve`
+- Stylelint
 
 ### Usage
 
-Run dist/index.html in your preferred browser.
+- Clone the repo.
 
-<!-- ### Run tests
+- Run `npm install` on your terminal.
 
-- On the terminal `cd` to the folder you just cloned.
-- On the terminal type `rspec`. -->
+- Open the terminal in your machine and run `npm start` to start the local server.
 
-## Authors
+- Open the terminal in your machine and run `npm run test` in the terminal to run the test via Jest.
 
-👤 **Nikos Pountzas**
+## Author
 
-- GitHub: [pountzas](https://github.com/pountzas)
-- Twitter: [@pountzas20](https://twitter.com/pountzas20)
-- LinkedIn: [Nikos Pountzas](https://www.linkedin.com/in/nikos-pountzas/)
+👤 **Guilherme Giachellin**
+
+- GitHub: [@guilherme](https://github.com/GuilhermeGiachellin)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](URL).
+Feel free to check the [issues page](https://github.com/GuilhermeGiachellin/To-Do-List/issues).
+
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+
 ## Acknowledgments
+
+- Microverse Activities
 
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/GuilhermeGiachellin/To-Do-List/blob/main/LICENSE) licensed.
