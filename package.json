@@ -1,7 +1,7 @@
 {
-  "name": "leaderboard",
+  "name": "my-webpack-project",
   "version": "1.0.0",
-  "description": " ",
+  "description": "My webpack project",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
