@@ -13,10 +13,16 @@
   "rules": {
     "no-shadow": "off",
     "no-param-reassign": "off",
-    "eol-last": "off"
+    "eol-last": "off",
+    "import/extensions": [ 1, {
+      "js": "always", "json": "always"
+    }],
+    "max-classes-per-file": ["error", 10],
+    "max-len": ["error", { "code": 150 }]
   },
   "ignorePatterns": [
     "dist/",
-    "build/"
+    "build/",
+    "luxon.js", "**/assets/*.js"
   ]
-}
+}  
