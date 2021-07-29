@@ -1,4 +1,4 @@
 import './style.css';
-import generateHTML from './displayHtml';
+import getScore from './api';
 
-generateHTML();
+getScore();

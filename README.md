@@ -2,13 +2,13 @@
 
 # To Do List
 
-> "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
+> "Leaderboard" is a tool to save scores of players during a game. It uses an API to store the information that is feed to the site.
 
 ## Image Preview
-![image]()
+![image](https://user-images.githubusercontent.com/81584449/127540559-74d33e33-270c-44b4-95bb-175950e4bc67.png)
 
 ##  Live Demo
-[Demo]()
+[Demo](https://guilhermegiachellin.github.io/Leaderboard/)
 
 ## What was built in this project:
 
@@ -36,9 +36,9 @@
 
 - Run `npm install` on your terminal.
 
-- Open the terminal in your machine and run `npm start` to start the local server.
+- Open the terminal in your machine and run `npm run start` to start the local server.
 
-- Open the terminal in your machine and run `npm run test` in the terminal to run the test via Jest.
+- To show the new scores, press the `refresh` button.
 
 ## Author
 

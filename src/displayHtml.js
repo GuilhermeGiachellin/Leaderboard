@@ -1,17 +1,17 @@
-const generateHTML = () => {
+const setScore = (scoreList) => {
   const containerUl = document.getElementById('games_ul');
-  let counter = 0;
   containerUl.innerHTML = '';
-  for (let i = 0; i < 3; i += 1) {
+  let counter = 0;
+  scoreList.result.forEach((element) => {
     const li = document.createElement('li');
     counter += 1;
-    li.innerHTML = `<li class="games_li"><p>game ${counter}</p></li>`;
+    li.innerHTML = `<li class="games_li"><div><p>USER: ${element.user}</p></div><div></div><p>SCORE: ${element.score}</p></li>`;
     li.classList.add('tasks_li');
     if (counter % 2 !== 0) {
       li.classList.add('greyColor');
     }
     containerUl.appendChild(li);
-  }
+  });
 };
 
-export default generateHTML;
+export default setScore;
