@@ -4,9 +4,19 @@
   list-style: none;
 }
 
+body {
+  background-color: #272a31;
+  color: #fff;
+}
+
 header {
   height: 15vh;
   align-items: center;
+}
+
+hr {
+  width: 95vw;
+  margin: auto;
 }
 
 h1 {
@@ -24,6 +34,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 10vh;
   height: 85vh;
 }
 
@@ -48,6 +59,8 @@ section {
   width: 35vw;
   border: 2px solid black;
   padding: 0;
+  background-color: #bebfc1;
+  color: black;
 }
 
 .games_li {
@@ -60,7 +73,8 @@ section {
 }
 
 .greyColor {
-  background-color: #bebfc1;
+  background-color: black;
+  color: #fff;
 }
 
 .form_container {
@@ -96,6 +110,7 @@ input {
   width: 10vw;
   height: 40px;
   font-size: 1.1rem;
+  font-weight: bold;
   border: 2px solid black;
   border-radius: 5px;
 }
@@ -104,24 +119,94 @@ input {
   width: 10vw;
   height: 40px;
   font-size: 1.1rem;
+  font-weight: bold;
   border: 2px solid black;
   border-radius: 5px;
 }
 
 button:hover {
-  background-color: grey;
+  background-color: #bebfc1;
+  transition: 250ms;
 }
 
 button:active {
   background-color: black;
   color: white;
+  transition: 250ms;
 }
 
 .submit_btn:hover {
-  background-color: grey;
+  background-color: #bebfc1;
+  transition: 250ms;
 }
 
 .submit_btn:active {
   background-color: black;
   color: white;
+  transition: 250ms;
+}
+
+input[type=text]:focus {
+  background-color: #bebfc1;
+  transition: 250ms;
+}
+
+@media (max-width: 1080px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin: auto;
+  }
+
+  .games_ul {
+    width: 80vw;
+  }
+
+  .list_container {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .list_title_container {
+    width: 80vw;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .form_container {
+    width: 80vw;
+    margin: 15px auto;
+  }
+
+  .input_div {
+    width: 100%;
+  }
+
+  .input_div > div {
+    width: 85%;
+    justify-content: center;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  .refresh_btn {
+    width: 30vw;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+  .submit_btn {
+    width: 30vw;
+    height: 35px;
+    font-size: 1rem;
+  }
 }
