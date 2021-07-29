@@ -5,7 +5,9 @@
 > "Leaderboard" is a tool to save scores of players during a game. It uses an API to store the information that is feed to the site.
 
 ## Image Preview
-![image](https://user-images.githubusercontent.com/81584449/127540559-74d33e33-270c-44b4-95bb-175950e4bc67.png)
+![image](https://user-images.githubusercontent.com/81584449/127571089-74a4e629-a1ce-417c-b41d-8eeebc0d005e.png)
+
+![image](https://user-images.githubusercontent.com/81584449/127571173-fac24a48-32c5-4ab1-a390-afcbace00153.png)
 
 ##  Live Demo
 [Demo](https://guilhermegiachellin.github.io/Leaderboard/)
